@@ -6,3 +6,5 @@ Estimation can take some time. To speed it up:
   + Trivial example. You want to obtain a distribution of 500 parameters. Open in Windows two 'cmd'. Launch the model twice with 'num_params' = 250
 
 How to launch on terminal. Example on windows: python "C:\\Users\\User\\Desktop\\bounded_confidence\\abc_bc.py" 
+
+So far, the output is a dataframe in .csv, saved in a user-specified working directory. This dataframe contains the values obtained in the last iteration of the ABC - SMC Algorithm. In particular, the 'num_params' parameters retained, their weight, and the corresponding summary statistics and terminal distance  
