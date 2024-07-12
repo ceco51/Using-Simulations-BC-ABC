@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
     JVM_PATH = "C:\\Program Files\\Java\\jdk-22\\bin\\server\\jvm.dll" #place here your path
     PATH_TO_MODEL = "C:\\Users\\User\\Downloads\\bc.nlogo" #place here your path
-    WRITING_PATH = os.path.join("C:\\Users\\User\\Desktop\\BC-Model\\Results", "abc_fit.db")
+    WRITING_PATH = os.path.join("C:\\Users\\User\\Desktop\\BC-Model\\Results", "abc_fit.db") #set here your path
     max_iterations = 10
     terminal_distance = 0.05
     abc_model = launch_abc(
@@ -105,7 +105,7 @@ if __name__ == '__main__':
                             )
     approx_posterior = history.get_population_extended()
 
-    #set current working directory
+    #set here your current working directory
     WHERE_TO_SAVE_CSV = "C:\\Users\\User\\Desktop\\BC-Model\\Results"
     os.chdir(WHERE_TO_SAVE_CSV)
 
