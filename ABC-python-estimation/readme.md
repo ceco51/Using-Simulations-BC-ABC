@@ -8,3 +8,5 @@ Estimation can take some time. To speed it up:
 How to launch on terminal. Example on windows: python "C:\\Users\\User\\Desktop\\bounded_confidence\\abc_bc.py" 
 
 So far, the output is a dataframe in .csv, saved in a user-specified working directory. This dataframe contains the values obtained in the last iteration of the ABC - SMC Algorithm. In particular, the 'num_params' parameters retained, their weight, and the corresponding summary statistics and terminal distance  
+
+Possibly an error raised by the JVM will be raised when launching the script. Just click on "Ok", it should work anyhow
